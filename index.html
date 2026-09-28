@@ -1,37 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>No Deployment Yet</title>
+    <meta charset="utf-8" />
+    <title>Teilzwilling Leerstandsmanagement</title>
+    <base href="/" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover, user-scalable=no, interactive-widget=resizes-content"
+    />
+    <meta name="mobile-web-app-capable" content="yes" />
+
+    <link rel="icon" type="image/png" href="https://carma-dev-deployments.github.io/tz-leerstandsmanagement/favicon-32.png" />
+    <link rel="manifest" href="https://carma-dev-deployments.github.io/tz-leerstandsmanagement/manifest.json" />
+
+    <meta name="theme-color" content="#c62828" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Leerstand" />
+    <link rel="apple-touch-icon" sizes="180x180" href="https://carma-dev-deployments.github.io/tz-leerstandsmanagement/apple-touch-icon-180.png" />
+    <link rel="apple-touch-icon" sizes="167x167" href="https://carma-dev-deployments.github.io/tz-leerstandsmanagement/apple-touch-icon-167.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="https://carma-dev-deployments.github.io/tz-leerstandsmanagement/apple-touch-icon-152.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="https://carma-dev-deployments.github.io/tz-leerstandsmanagement/apple-touch-icon-120.png" />
     <style>
-      body {
+      #splash-loading {
+        position: fixed;
+        inset: 0;
         display: flex;
-        justify-content: center;
         align-items: center;
-        height: 100vh;
-        margin: 0;
-        font-family: Arial, sans-serif; /* Non-serif font */
-        background-color: #f4f4f4;
-      }
-      .container {
-        text-align: center;
-      }
-      .message {
-        margin-top: 20px;
-        font-size: 24px;
-        color: #333;
+        justify-content: center;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        color: #555;
+        background: #fff;
       }
     </style>
+    <script type="module" crossorigin src="https://carma-dev-deployments.github.io/tz-leerstandsmanagement/assets/index-DS9hFIXi.js"></script>
+    <link rel="stylesheet" crossorigin href="https://carma-dev-deployments.github.io/tz-leerstandsmanagement/assets/index-DKjVwt4J.css">
   </head>
   <body>
-    <div class="container">
-      <!-- Update 'logo.png' to the path of your logo file or URL -->
-      <img
-        src="https://cismet.de/images/cismet_signet_rgb_buntesC.png"
-        alt="Company Logo"
-      />
-      <div class="message">No deployment yet</div>
+    <div id="root">
+      <div id="splash-loading">Leerstandsmanagement wird geladen …</div>
     </div>
   </body>
 </html>
